@@ -9,6 +9,6 @@ metadata:
 spec:
   source:
     git:
-      url: https://github.com/sample-accelerators/outer-loop
+      url: https://github.com/Mpluya/outer-loop
       ref:
         branch: main
