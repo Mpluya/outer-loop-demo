@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "custom source scan testing";
+		return "supply chain journey starts here";
 	}
 
 }
