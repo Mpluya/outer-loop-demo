@@ -16,6 +16,9 @@
 
 	<properties>
 		<java.version>8</java.version>
+		<sonar.host.url>http://sonarqube.haas-403.pez.vmware.com</sonar.host.url>
+	  	<sonar.login>2b541ad0b53f5701c12f13266beb702a944c836f</sonar.login>
+	   	<sonar.projectKey>mlarge_sonar-scan_AX7-uqy-mNJr4w1lK4LB</sonar.projectKey>
 	</properties>
 
 	<licenses>
@@ -53,6 +56,10 @@
 
 	<build>
 		<plugins>
+			<plugin>
+                		<groupId>org.sonarsource.scanner.maven</groupId>
+		                <artifactId>sonar-maven-plugin</artifactId>
+		        </plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
