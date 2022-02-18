@@ -16,9 +16,9 @@
 
 	<properties>
 		<java.version>8</java.version>
-		<sonar.host.url>http://sonarqube.haas-403.pez.vmware.com</sonar.host.url>
-	  	<sonar.login>2b541ad0b53f5701c12f13266beb702a944c836f</sonar.login>
-	   	<sonar.projectKey>mlarge_sonar-scan_AX7-uqy-mNJr4w1lK4LB</sonar.projectKey>
+		<sonar.host.url>http://sonarqube.haas-492.pez.vmware.com</sonar.host.url>
+	  	<sonar.login>e01f575fc5ab578ef6bf03e2318f664d3c10db03</sonar.login>
+	   	<sonar.projectKey>mlarge_sonar-scan_AX8OlVMX08yiXL1TM0Fb</sonar.projectKey>
 	</properties>
 
 	<licenses>
