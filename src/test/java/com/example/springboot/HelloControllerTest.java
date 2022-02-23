@@ -21,11 +21,11 @@ class HelloControllerTest {
 
     @Test
     void index() throws Exception {
-        assertEquals("supply chain journey starts here, plus syft fun", controller.index());
+        assertEquals("supply chain journey starts here, plus TBS fun", controller.index());
 
         mockMvc
             .perform(get("/"))
             .andExpect(status().isOk())
-            .andExpect(content().string("supply chain journey starts here, plus syft fun"));
+            .andExpect(content().string("supply chain journey starts here, plus TBS fun"));
     }
 }
