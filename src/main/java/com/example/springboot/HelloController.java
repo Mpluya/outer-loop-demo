@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "hi from an outer-loop demo";
+		return "supply chain journey starts here";
 	}
 
 }
