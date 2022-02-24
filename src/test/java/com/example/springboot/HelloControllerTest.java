@@ -21,11 +21,11 @@ class HelloControllerTest {
 
     @Test
     void index() throws Exception {
-        assertEquals("hello stranger", controller.index());
+        assertEquals("hello stranger danger", controller.index());
 
         mockMvc
             .perform(get("/"))
             .andExpect(status().isOk())
-            .andExpect(content().string("hello stranger"));
+            .andExpect(content().string("hello stranger danger"));
     }
 }
