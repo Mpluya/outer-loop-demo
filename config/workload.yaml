@@ -7,11 +7,16 @@ metadata:
     apps.tanzu.vmware.com/workload-type: web
 spec:
   params:
-    gitops_repository: git@github.com:Mpluya/config-outer-loop-demo.git
-    gitops_branch: main
-    gitops_commit_message: "bump"
-    gitops_user_name: gitops_bot
-    gitops_user_email: "gitops_bot@example.com"
+    - name: gitops_repository
+      value: git@github.com:Mpluya/config-outer-loop-demo.git
+    - name: gitops_branch
+      value: main
+    - name: gitops_commit_message
+      value: "bump"
+    - name: gitops_user_name
+      value: gitops_bot
+    - name: gitops_user_email
+      value: "gitops_bot@example.com"
   source:
     git:
       url: https://github.com/Mpluya/outer-loop-demo
